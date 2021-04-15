@@ -17,6 +17,16 @@ public class boj3460 {
             }
         }
     }
+
+    public static String toBinaryStr(int n) {
+        String str = "";
+        while (n > 0) {
+            int r = n % 2;
+            str = r + str;
+            n /= 2;
+        }
+        return str;
+    }
 }
 /*
 1
