@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class boj2501 {
 // https://www.acmicpc.net/problem/2501
-}
+public class boj2501 {
 
-class Main {
     static int N, K;
     static Scanner sc = new Scanner(System.in);
 
