@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// https://www.acmicpc.net/problem/1978
+// https://www.acmicpc.net/problem/1292
 public class Boj1292 {
     static int A, B;
     static Scanner sc = new Scanner(System.in);
