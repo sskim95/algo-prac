@@ -1,3 +1,5 @@
+package boj;
+
 import java.util.Scanner;
 
 // https://www.acmicpc.net/problem/10818
