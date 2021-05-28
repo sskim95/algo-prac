@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class BubbleSort {
 
     public static void bubbleSort(int[] arr) {
-        int temp = 0;
+        int temp;
         // 각 회전이 끝날 때마다 제외해야할 원소의 개수
         for (int i = 0; i < arr.length; i++) {
             // 원소 비교를 위한 인덱스를 뽑는 반복문
@@ -28,3 +28,8 @@ public class BubbleSort {
         bubbleSort(arr);
     }
 }
+
+/*
+시간 복잡도: O(n^2)
+공간 복잡도: O(n)
+*/
